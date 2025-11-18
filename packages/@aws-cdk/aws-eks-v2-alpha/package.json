@@ -30,17 +30,18 @@
       },
       "go": {
         "moduleName": "github.com/aws/aws-cdk-go",
-        "packageName": "awscdkeks-v2alpha"
+        "packageName": "awscdkeksv2alpha"
       }
     },
-    "projectReferences": true,
     "metadata": {
       "jsii": {
         "rosetta": {
           "strict": true
         }
       }
-    }
+    },
+    "tsconfig": "tsconfig.json",
+    "validateTsconfig": "minimal"
   },
   "repository": {
     "type": "git",
@@ -93,6 +94,7 @@
     "@aws-cdk/lambda-layer-kubectl-v31": "^2.1.0",
     "@aws-cdk/lambda-layer-kubectl-v32": "^2.1.0",
     "@aws-cdk/lambda-layer-kubectl-v33": "^2.0.0",
+    "@aws-cdk/lambda-layer-kubectl-v34": "^2.0.0",
     "@types/jest": "^29.5.14",
     "aws-sdk": "^2.1692.0",
     "aws-cdk-lib": "0.0.0",
@@ -115,7 +117,7 @@
     "node": ">= 18.0.0"
   },
   "stability": "experimental",
-  "maturity": "experimental",
+  "maturity": "developer-preview",
   "awslint": {
     "exclude": [
       "*:*"
@@ -135,7 +137,7 @@
   },
   "jsiiRosetta": {
     "exampleDependencies": {
-      "@aws-cdk/lambda-layer-kubectl-v33": "^2.0.0",
+      "@aws-cdk/lambda-layer-kubectl-v34": "^2.0.0",
       "cdk8s-plus-25": "^2.7.0"
     }
   }
